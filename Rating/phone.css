@@ -7,27 +7,28 @@ html, body {
 }
 #head {
 	font-family: 'Annie Use Your Telescope', cursive;
-	font-size: 5vw;
+	font-size: 15vw;
 	text-align: center;
 }
 #entry {
 	width: 70vw;
 	height: 30vh;
 	background-color: azure;
-	margin-top: -24vh;
+	margin-top: -20vh;
 	max-height: 30vh;
 	overflow: scroll;
+	font-size: 2.5vh;
 	font-family: 'Abel', sans-serif;
 }
 #submit {
 	border: none;
 	background-color: rgba(0, 0, 255, 0.2);
 	border-radius: 3px;
-	width: 9vw;
+	width: 40vw;
 	height: 6vh;
-	font-size: 1.2vw;
-	margin-left: 30.5vw;
-	margin-top: 3vh;
+	font-size: 2vh;
+	margin-left: 15vw;
+	margin-top: 2.7vh;
 	cursor: pointer;
 }
 #name {
@@ -35,7 +36,7 @@ html, body {
 	width: 70vw;
 	height: 5vh;
 	background-color: azure;
-	margin-top: -30vh;
+	margin-top: -28vh;
 	border: none;
 	font-size: 3vh;
 	text-align: center;
@@ -51,8 +52,9 @@ html, body {
 #reviews {
 	position: absolute;
 	width: 70vw;
-	margin-top: 30vh;
+	margin-top: 10vh;
 	font-family: 'Tienne', cursive;
+	font-size: 1.7vh;
 }
 .para1{
 	text-align: right;

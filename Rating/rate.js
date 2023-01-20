@@ -1,6 +1,12 @@
 let db = firebase.database()
 let nor
 
+if(window.innerHeight/window.innerWidth < 1){
+    document.getElementById("styler").href="rate.css"
+} else {
+    document.getElementById("styler").href="phone.css"
+}
+
 $("#submit").click(()=>{
 	let review = $("#entry").text()
 	let nameOfP = $("#name").text()

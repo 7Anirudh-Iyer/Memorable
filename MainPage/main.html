@@ -22,11 +22,12 @@
 	      
 	      firebase.initializeApp(firebaseConfig);
 	    </script>
-	    <link rel="stylesheet" href="style.css" />
+	    <link rel="stylesheet" href="phone.css" id="styler" />
 	    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
 	    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
 	    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.js"></script>
+	    <link rel="icon" type="image/x-icon" href="../favicon.png.png">
 	</head>
 	<body id="exists">
 		<div id="edits">
@@ -61,26 +62,26 @@
 			<div id="currentUse">
 				<img src="news.svg"/>
 			</div>
-			<img src="ai.png" class="sidebar-option" id="ai"/>
-			<img src="browse.png" id="bro" class="sidebar-option"/>
-			<img src="dark mode.png" id="dm" class="sidebar-option"/>
-			<img src="sign out.png" id="so" class="sidebar-option"/>
+			<img src="ai.png" class="sidebar-option" title="Text Generator AI" id="ai"/>
+			<img src="browse.png" id="bro" title="Search" class="sidebar-option"/>
+			<img src="dark mode.png" id="dm" title="Turn on Dark Mode" class="sidebar-option"/>
+			<img src="sign out.png" id="so" title="Sign Out" class="sidebar-option"/>
 		</div>
 		<div id="optionsbardark" style="display: none;">
 			<div id="currentUseD">
-				<img src="Dark mode icons/news.svg" width="80%"/>
+				<img src="Dark mode icons/news.svg" width="80%" />
 			</div>
-			<img src="ai.png" class="sidebar-option" id="ai1"/>
-			<img src="browse.png" id="bro1" class="sidebar-option"/>
-			<img src="dark mode.png" id="dm1" class="sidebar-option"/>
-			<img src="sign out.png" id="so1" class="sidebar-option"/>
+			<img src="ai.png" class="sidebar-option" title="Text Generator AI" id="ai1"/>
+			<img src="browse.png" id="bro1" title="Search" class="sidebar-option"/>
+			<img src="dark mode.png" id="dm1" title="Turn on Light Mode" class="sidebar-option"/>
+			<img src="sign out.png" id="so1" title="Sign Out" class="sidebar-option"/>
 		</div>
 		<div id="hideed"></div>
 		<div id="contentbar">
 			<button id="add">+</button>
 		</div>
 		<div id="contentbardark" style="display: none; color: white">
-			<button id="add1">+</button>
+			<button id="add1" title="Add note">+</button>
 		</div>
 		<div id="editor">
 		</div>
@@ -89,6 +90,7 @@
 		<div id="rate">
 			<a href="../Rating/rate.html"><img src="rate.png" id="r" title="Give a Rating" /></a>
 		</div>
-		<script src="script.js"></script>
+		<script src="script.js" id="fin"></script>
+		<script type="text/javascript" src="decide.js"></script>
 	</body>
 </html>
